@@ -12,6 +12,18 @@
         type="text/css" />
     <link rel="stylesheet" href="assets/css/style.css">
     <title>Lee Curtis</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+        (function () {
+            emailjs.init("xw1UTm2pWOtvq3DZi");
+            emailjs.send("default_service", "template_kfcsgtq", {
+                name: "Aaron",
+                notes: "The project that I want is..."
+            })
+
+        })();
+    </script>
 </head>
 
 <body>
